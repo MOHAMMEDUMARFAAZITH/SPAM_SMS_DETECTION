@@ -1,5 +1,3 @@
 stopwords
 punkt
-streamlit
-nltk
-sklearn
+
