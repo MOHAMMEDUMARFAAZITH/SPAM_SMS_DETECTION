@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy
 import pandas as pd
-df = pd.read_csv(r"C:\Users\RAZITH\Downloads\spam (1).csv",encoding='cp1252')
+df = pd.read_csv("spam (1).csv",encoding='cp1252')
 df.drop(columns=["Unnamed: 2","Unnamed: 3","Unnamed: 4"],inplace=True)
 df.rename(columns={"v1":"Target","v2":"Text"},inplace=True)
 from sklearn.preprocessing import LabelEncoder
