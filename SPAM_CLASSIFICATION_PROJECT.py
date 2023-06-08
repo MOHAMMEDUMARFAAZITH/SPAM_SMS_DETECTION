@@ -1,4 +1,5 @@
 import streamlit as st
+import sklearn
 import numpy
 import pandas as pd
 df = pd.read_csv("spam (1).csv",encoding='cp1252')
